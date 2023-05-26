@@ -27,7 +27,8 @@ public class Lilac extends Flower {
         return "Lilac{" +
                 "season='" + season + '\'' +
                 ", smell='" + smell + '\'' +
-                ", beauty product='" + beautyProducts + '\'' +
+                ", name='" + name + '\'' +
+                ", beautyProducts='" + beautyProducts + '\'' +
                 '}';
     }
 }

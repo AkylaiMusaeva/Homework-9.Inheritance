@@ -25,9 +25,9 @@ public class Rose extends Flower{
     public String toString() {
         return "Rose{" +
                 "colour='" + colour + '\'' +
-                ", height=" + height + '\'' +
-                ", beauty products=" + beautyProducts+
+                ", height=" + height +
+                ", name='" + name + '\'' +
+                ", beautyProducts='" + beautyProducts + '\'' +
                 '}';
     }
-
 }

@@ -1,5 +1,5 @@
 public class Programmer extends Person{
-    String companyName;
+    private String companyName;
     public Programmer(String name,String designation,String companyName){
         super(name,designation);
         this.companyName=companyName;
@@ -14,15 +14,15 @@ public class Programmer extends Person{
         super.learn();
         super.walk();
         super.eat();
-        System.out.println(name+" is currently writes codes in "+companyName);
+        System.out.println(getName()+" is currently writes codes in "+companyName);
     }
 
     @Override
     public String toString() {
         return "Programmer{" +
                 "companyName='" + companyName + '\'' +
-                ", name='" + name + '\'' +
-                ", designation='" + designation + '\'' +
+                ", name='" +getName()+ '\'' +
+                ", designation='" + getDesignation()+ '\'' +
                 '}';
     }
 }

@@ -24,12 +24,4 @@ public class Flower {
     public void flowerCan(){
         System.out.println(name+" can be used in composition of "+beautyProducts);
     }
-
-    @Override
-    public String toString() {
-        return "Flower{" +
-                "name='" + name + '\'' +
-                ", beautyProducts='" + beautyProducts + '\'' +
-                '}';
-    }
 }

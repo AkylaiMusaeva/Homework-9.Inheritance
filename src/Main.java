@@ -28,6 +28,16 @@ public class Main {
 //        Lilac lilac=new Lilac("Lilac","handCream","spring","fresh");
 //        System.out.println(lilac);
 
+
+
+
+
+
+
+
+
+
+
         /**ДЗ в ЛМС*/
         Programmer programmer=new Programmer("Almaz","Programmer","PeakSoft");
         System.out.println(programmer);
@@ -41,6 +51,10 @@ public class Main {
         System.out.println(singer);
         singer.singing();
         singer.playGuitar();
+
+
+
+
 
 
 

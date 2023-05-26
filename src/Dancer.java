@@ -1,5 +1,5 @@
 public class Dancer extends Person {
-    String groupName;
+    private String groupName;
     public Dancer(String name,String designation,String groupName){
         super(name, designation);
         this.groupName=groupName;
@@ -14,7 +14,7 @@ public class Dancer extends Person {
         super.learn();
         super.walk();
         super.eat();
-        System.out.printf(name+" has been dancing in %s for 5 years",groupName);
+        System.out.printf(getName()+" has been dancing in %s for 5 years",groupName);
         System.out.println();
     }
 
@@ -22,8 +22,8 @@ public class Dancer extends Person {
     public String toString() {
         return "Dancer{" +
                 "groupName='" + groupName + '\'' +
-                ", name='" + name + '\'' +
-                ", designation='" + designation + '\'' +
+                ", name='" + getName() + '\'' +
+                ", designation='" + getDesignation() + '\'' +
                 '}';
     }
 }

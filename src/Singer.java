@@ -14,18 +14,18 @@ public class Singer extends Person{
         super.learn();
         super.walk();
         super.eat();
-        System.out.println(name+" is currently giving worldwide concerts with his group "+bandName);
+        System.out.println(getName()+" is currently giving worldwide concerts with his group "+bandName);
     }
     public void playGuitar(){
-        System.out.println(designation +" not always perform with guitar");
+        System.out.println(getDesignation() +" not always perform with guitar");
     }
 
     @Override
     public String toString() {
         return "Singer{" +
                 "bandName='" + bandName + '\'' +
-                ", name='" + name + '\'' +
-                ", designation='" + designation + '\'' +
+                ", name='" + getName() + '\'' +
+                ", designation='" + getDesignation() + '\'' +
                 '}';
     }
 }

@@ -1,6 +1,6 @@
 public class Person {
-    String name;
-    String designation;
+    private String name;
+    private String designation;
     public Person(String name,String designation){
         this.name=name;
         this.designation=designation;
@@ -29,4 +29,6 @@ public class Person {
         System.out.println(name+" eats every day ");
     }
 
+
 }
+
